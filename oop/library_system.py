@@ -37,7 +37,7 @@ class Library:
 
     def show_books(self):
         for book in self.books:
-            print(book)
+            print(book)  # Print each book's string representation
 
 
 # Example usage:
@@ -53,6 +53,5 @@ if __name__ == "__main__":
     library.add_book(book3)
 
     print("Books in Library:")
-    for book in library.list_books():
-        print(book)
+    library.show_books()  # Call the method to print the books
 
